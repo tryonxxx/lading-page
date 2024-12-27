@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 200vh;    
+    background-color: rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #020817;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";    
+}
+
+.container{
+    width: 30%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.1);
+    padding: 1% 0%;
+}
+
+.container header{
+    padding: 4% 8%;
+}
+
+.container header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    color: #fff;
+}
+
+.hero{
+    padding: 5% 0%;
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+
+.hero-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0%;
+    gap: 1rem;
+    /* background-color: orange */
+}
+
+.hero-img-logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.hero-img-logo img{
+    width: 120px;
+    height: 120px;
+}
+
+.hero h3{
+    color: rgb(248, 250, 252);
+}
+
+.hero nav ul{
+    list-style-type: none;
+    color: #8b9aad;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 5% 0%
+}
+
+.item{
+    width: 80%;
+    /* border: 1px solid #8b9aad; */
+    border: 1px solid rgba(139, 154, 173, 0.5);
+    padding: 5% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+}
+
+.item h3{
+    color: rgb(248, 250, 252);
+}
+
+.item p{
+    color: #8b9aad;
+}
+
+.social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.social-item ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+.social-item ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    border: 2px solid #333;
+    border-radius: 15%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+.social-item ul li a:hover {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.container footer{  
+    padding: 5%;
+    /* background-color: orangered; */
+}
